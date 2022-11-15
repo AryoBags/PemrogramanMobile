@@ -28,7 +28,7 @@ class _MyAppState extends State<MyApp> {
   void onDropChange(Object? value) {
     return setState(() {
       selctDropdown = value.toString();
-      //Jika Click SelectDropDown akan langsung menampilkan hasilnya di Daftar History
+
       if (text1.text.isNotEmpty) {
         switch (selctDropdown) {
           case "Kelvin":
@@ -83,6 +83,7 @@ class _MyAppState extends State<MyApp> {
     });
   }
 
+  double konverisuhu = 0;
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -94,7 +95,23 @@ class _MyAppState extends State<MyApp> {
           padding: EdgeInsets.only(left: 10, top: 10),
           child: Column(
             children: [
-              masukkanSuhu(text1: text1),
+              Slider(
+                  value: konverisuhu,
+                  max: 100,
+                  divisions: 100,
+                  label: konverisuhu.round().toString(),
+                  onChanged: (double value) {
+                    setState(() {
+                      konverisuhu = value;
+                      text1.text = konverisuhu.toString();
+                    });
+                  }),
+              // masukkanSuhu(text1: text1),
+              // daftarSuhu(
+              //   selctDropdown: selctDropdown,
+              //   listSuhu: listSuhu,
+              //   onDropChange: onDropChange,
+              // ),
               daftarSuhu(
                 selctDropdown: selctDropdown,
                 listSuhu: listSuhu,
