@@ -3,7 +3,7 @@
 
 A new Flutter project.
 
-# konversi_suhu_dropdown
+# tambahan Slider
 ini tampilan yang sudah di tambah slider
 ![image](https://user-images.githubusercontent.com/95728907/201818418-2db47ced-4d60-4196-adeb-7b4ef2a7f7cc.png)
 
