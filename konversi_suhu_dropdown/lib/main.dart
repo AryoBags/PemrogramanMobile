@@ -17,7 +17,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  TextEditingController text1 = TextEditingController();
+  TextEditingController suhu = TextEditingController();
   double kelvin = 0, reamor = 0, input = 0;
   double hasil = 0;
 
@@ -29,24 +29,24 @@ class _MyAppState extends State<MyApp> {
     return setState(() {
       selctDropdown = value.toString();
 
-      if (text1.text.isNotEmpty) {
+      if (suhu.text.isNotEmpty) {
         switch (selctDropdown) {
           case "Kelvin":
-            hasil = int.parse(text1.text) + 273;
+            hasil = int.parse(suhu.text) + 273;
 
             break;
 
           case "Reamur":
-            hasil = int.parse(text1.text) * 4 / 5;
+            hasil = int.parse(suhu.text) * 4 / 5;
             break;
 
           case "Fahrenheit":
-            hasil = int.parse(text1.text) * 9 / 5 + 32;
+            hasil = int.parse(suhu.text) * 9 / 5 + 32;
             break;
           default:
         }
         History.add("hasil " +
-            text1.text +
+            suhu.text +
             " Celcius Ke " +
             selctDropdown +
             " = " +
@@ -57,24 +57,24 @@ class _MyAppState extends State<MyApp> {
 
   void Konversi() {
     return setState(() {
-      if (text1.text.isNotEmpty) {
+      if (suhu.text.isNotEmpty) {
         switch (selctDropdown) {
           case "Kelvin":
-            hasil = int.parse(text1.text) + 273;
+            hasil = int.parse(suhu.text) + 273;
 
             break;
 
           case "Reamur":
-            hasil = int.parse(text1.text) * 4 / 5;
+            hasil = int.parse(suhu.text) * 4 / 5;
             break;
 
           case "Fahrenheit":
-            hasil = int.parse(text1.text) * 9 / 5 + 32;
+            hasil = int.parse(suhu.text) * 9 / 5 + 32;
             break;
           default:
         }
         History.add("Hasil" +
-            text1.text +
+            suhu.text +
             " Celcius Ke " +
             selctDropdown +
             " =" +
@@ -98,15 +98,15 @@ class _MyAppState extends State<MyApp> {
               Slider(
                   value: konverisuhu,
                   max: 100,
-                  divisions: 100,
+                  divisions: 200,
                   label: konverisuhu.round().toString(),
                   onChanged: (double value) {
                     setState(() {
                       konverisuhu = value;
-                      text1.text = konverisuhu.toString();
+                      suhu.text = konverisuhu.toString();
                     });
                   }),
-              // masukkanSuhu(text1: text1),
+              // masukkanSuhu(suhu: suhu),
               // daftarSuhu(
               //   selctDropdown: selctDropdown,
               //   listSuhu: listSuhu,
