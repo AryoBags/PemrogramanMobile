@@ -3,15 +3,7 @@
 
 A new Flutter project.
 
-## Getting Started
+# tambahan Slider
+ini tampilan yang sudah di tambah slider
+![image](https://user-images.githubusercontent.com/95728907/201818418-2db47ced-4d60-4196-adeb-7b4ef2a7f7cc.png)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
