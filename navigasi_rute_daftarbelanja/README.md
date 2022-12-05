@@ -1,16 +1,7 @@
 # navigasi_rute_daftarbelanja
 
-A new Flutter project.
+hasilnya:
+![image](https://user-images.githubusercontent.com/95728907/204429480-b167b18f-2c3b-4203-8b89-b9c89e660c06.png)
 
-## Getting Started
+![image](https://user-images.githubusercontent.com/95728907/204429556-13808c36-89f2-4388-bf93-4635996a39dc.png)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
