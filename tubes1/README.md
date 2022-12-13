@@ -2,15 +2,13 @@
 
 A new Flutter project.
 
-## Getting Started
+Hasil
 
-This project is a starting point for a Flutter application.
+Home
+![image](https://user-images.githubusercontent.com/95728907/207215615-356b1acc-5cfd-471f-b639-d61f3eae171a.png)
 
-A few resources to get you started if this is your first Flutter project:
+create
+![image](https://user-images.githubusercontent.com/95728907/207215675-980f256c-c6fd-4ff9-b496-e0aec8a80f5a.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Update/edit
+![image](https://user-images.githubusercontent.com/95728907/207215754-acd694a8-8da1-4c3a-a22a-5ae54bbc7835.png)
